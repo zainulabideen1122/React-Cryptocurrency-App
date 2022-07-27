@@ -14,7 +14,7 @@ const Content = (props)=>{
     function eachIndex(e){
         return e.id.includes(term.toLowerCase())
     }
-    console.log(item)
+
 
 
     const display = item.map((result)=>{
